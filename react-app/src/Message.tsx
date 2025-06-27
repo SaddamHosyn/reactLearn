@@ -1,4 +1,11 @@
 function Message() {
     // jsx
-  return <div>Hello, this is a message!</div>;
+      const name = '';
+
+  if (name) {
+    return <h1>Hello {name}!</h1>;
+  } else {
+    return <h1>Hello World!</h1>;
+  }
 }
+export default Message;
